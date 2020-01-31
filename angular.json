@@ -63,7 +63,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "todos-app-demo:build"
+            "browserTarget": "todos-app-demo:build",
+            "port": 5200
           },
           "configurations": {
             "production": {
